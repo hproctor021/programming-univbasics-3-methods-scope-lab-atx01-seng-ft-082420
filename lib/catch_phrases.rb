@@ -16,7 +16,7 @@ def link
   puts $says
 end
 
-def all_phrases($says)
+def all_phrases(link)
   case character
   
   when mario
