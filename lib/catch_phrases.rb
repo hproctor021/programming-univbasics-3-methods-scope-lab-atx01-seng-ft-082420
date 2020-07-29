@@ -17,22 +17,15 @@ def link
 end
 
 def all_phrases
-
-puts mario
-puts toadstool
-puts link
-
-
-
-#  case character
+  case character
   
-#  when mario
- #   puts $phrase
-#  when toadstool
- #   puts $status
-#  when link
- #   puts $says
-#  else
- #   puts "Where did everyone go?"
+  when mario
+    puts $phrase
+  when toadstool
+    puts $status
+  when link
+    puts $says
+  else
+    puts "Where did everyone go?"
   end
 end
