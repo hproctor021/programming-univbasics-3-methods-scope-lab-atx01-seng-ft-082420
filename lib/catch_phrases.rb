@@ -1,4 +1,4 @@
-
+$character = [mario, toadstool, link]
 $phrase = "It's-a me, Mario!"
 $status = "Thank You Mario! But Our Princess Is In Another Castle!\n"
 $says = "It's Dangerous To Go Alone! Take This."
@@ -17,7 +17,8 @@ def link
 end
 
 def all_phrases
-  case character
+  
+  case $character
   
   when mario
     puts $phrase
