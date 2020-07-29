@@ -18,7 +18,9 @@ end
 
 def all_phrases
 
-puts " $phrase \n/ $status \n/ $says \n/ "
+puts mario
+puts toadstool
+puts link
 
 
 
